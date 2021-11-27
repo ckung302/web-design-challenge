@@ -10,7 +10,7 @@
     <title>Bootstrap Visualization Dashboard</title>
 
     <!--stylesheets-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
 
@@ -32,7 +32,7 @@
           </button>
 
           <!--site name-->
-          <a class="navbar-brand" href="index.html" style="color: white;">Lattitude</a>
+          <a class="navbar-brand" href="index.html">Lattitude</a>
         </div>
     
         <!--nav dropdown and links-->
@@ -78,16 +78,16 @@
           <hr>
           <p>Click any plot to get an in-depth analysis.</p>
 
-          <section class="container-fluid">
+          <div class="container-fluid">
               <div class="row main-row">
-                <div class="col-md-6 col-sm-12">
+                <div class="col-md-6">
                   <h3 class="header">vs. Max Temperature</h3>
                   <a href="visualizations/temp.html">
                     <img src="Resources/assets/images/Fig1.png" alt="max temperature vs latitude" class="side-image">
                   </a>
                   <hr class="small-screen-hr">
                 </div>
-                <div class="col-md-6 col-sm-12">
+                <div class="col-md-6">
                   <h3 class="header">vs. Humidity</h3>
                   <a href="visualizations/humidity.html">
                     <img src="Resources/assets/images/Fig2.png" alt="humidity vs latitude" class="side-image">
@@ -95,38 +95,29 @@
                   <hr class="small-screen-hr">
                 </div>
                 <!-- <div class="w-100"></div> -->
-                <div class="col-md-6 col-sm-12">
+                <div class="col-md-6">
                   <h3 class="header">vs. Cloudiness</h3>
                   <a href="visualizations/cloudiness.html">
                     <img src="Resources/assets/images/Fig3.png" alt="cloudiness vs latitude" class="side-image">
                   </a>
                   <hr class="small-screen-hr">
                 </div>
-                <div class="col-md-6 col-sm-12">
+                <div class="col-md-6">
                   <h3 class="header">vs. Wind Speed</h3>
                   <a href="visualizations/wind-speed.html">
                     <img src="Resources/assets/images/Fig4.png" alt="wind speed vs latitude" class="side-image">
                   </a>
                 </div>
               </div>
-            </section>
+            </div>
 
         </main>
 
       </div>
     </div>
 
-    <!-- Footer -->
-    <footer class="page-footer font-small">
-      <!-- Copyright -->
-      <div class="footer-copyright text-center py-3">© 2018 Copyright: Northwestern University Data Science Bootcamp</a>
-      </div>
-    </footer>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  
   </body>
 
 </html>
