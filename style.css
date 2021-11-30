@@ -13,6 +13,8 @@ body {
 .navbar-container {
     background-color: white;
     margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border: none;
 }
 
@@ -21,6 +23,8 @@ body {
     background-color: #2bb8b3;
     position: relative;
     left: 25px;
+    padding-bottom: 10px;
+    padding-top: 10px;
     border: none;
 }
 
